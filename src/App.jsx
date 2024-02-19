@@ -3,6 +3,8 @@ import HeroSection from "./components/HeroSection";
 import Studies from "./components/Studies";
 import Knowledge from "./components/Knowledge";
 import Experience from "./components/Experience";
+import Works from "./components/Works";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [theme, setTheme] = useState(null);
@@ -64,6 +66,8 @@ const App = () => {
           <Knowledge />
           <Studies />
           <Experience />
+          <Works />
+          <Footer />
         </div>
       </div>
     </>
